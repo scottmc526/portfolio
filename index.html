@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='mySite'>
   <head>
     <meta charset="utf-8">
     <title>Scott's Site</title>
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <h1>hello</h1>
+    <div ng-controller='mainController'>
+      {{hello}}
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-route.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-resource.js"></script>
+    <script type="text/javascript" src='js/app.js'></script>
+    <script type="text/javascript" src='js/controllers/main_controller.js'></script>
   </body>
 </html>
