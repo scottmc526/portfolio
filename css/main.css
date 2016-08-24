@@ -5,10 +5,12 @@ body {
 a {
   text-decoration: none;
   color: black;
+  opacity: 1;
+  transition: opacity .30s ease-in-out;
 }
 
 a:hover {
-  color: #cccccc;
+  opacity: 0.5;
 }
 
 .container {
