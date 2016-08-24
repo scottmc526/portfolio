@@ -61,3 +61,24 @@ ul li {
 img {
   border-radius: 5px;
 }
+
+.pic {
+  height: auto;
+  width: 90%;
+  position: relative;
+  z-index: 1;
+  transition: opacity .40s ease-in-out;
+}
+
+.pic:hover {
+  opacity: .2;
+}
+
+.text {
+  z-index: 0;
+  position: absolute;
+}
+
+.text:hover {
+  z-index: 2;
+}
