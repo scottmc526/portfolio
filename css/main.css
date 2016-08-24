@@ -5,6 +5,7 @@ body {
 a {
   text-decoration: none;
   color: black;
+  /*color: #c52f1b;*/
   opacity: 1;
   transition: opacity .30s ease-in-out;
 }
@@ -51,8 +52,12 @@ ul li {
 
 .info {
   font-family: 'Raleway';
+  /*font-weight: 700;*/
 }
 
 .evergreen {
   align-self: center;
+}
+img {
+  border-radius: 5px;
 }
