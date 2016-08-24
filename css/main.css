@@ -75,8 +75,11 @@ img {
 }
 
 .text {
+  height: auto;
+  width: 600px;
   z-index: 0;
   position: absolute;
+  text-align: center;
 }
 
 .text:hover {
