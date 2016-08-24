@@ -43,6 +43,7 @@ ul li {
   width: 100vw;
   background-color: #f6f6f6;
 }
+
 .nav {
   display: flex;
   justify-content: center;
@@ -52,12 +53,8 @@ ul li {
 
 .info {
   font-family: 'Raleway';
-  /*font-weight: 700;*/
 }
 
-.evergreen {
-  align-self: center;
-}
 img {
   border-radius: 5px;
 }
