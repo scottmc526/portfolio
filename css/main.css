@@ -33,6 +33,8 @@ ul {
 
 ul li {
   display: inline;
+  margin: 2vw;
+  /*border: 1px solid white;*/
 }
 
 .navBar {
@@ -47,12 +49,16 @@ ul li {
 .nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 20%;
   width: 90%;
 }
 
 .info {
   font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
