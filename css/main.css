@@ -1,11 +1,6 @@
-body {
-  background-color: #f6f6f6;
-}
-
 a {
   text-decoration: none;
   color: black;
-  /*color: #c52f1b;*/
   opacity: 1;
   transition: opacity .30s ease-in-out;
 }
@@ -34,7 +29,7 @@ ul {
 ul li {
   display: inline;
   margin: 2vw;
-  /*border: 1px solid white;*/
+  text-shadow: .5px .5px 1px #000
 }
 
 .navBar {
@@ -87,4 +82,30 @@ img {
 
 .text:hover {
   z-index: 2;
+}
+
+.contactInfo {
+  height: 40vh;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.contactInfo div {
+  height: 80%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.contactIcon {
+  height: 20vh;
+  width: auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+  border-radius: 20px;
+}
+
+.git {
+  border-radius: 100px;
 }
