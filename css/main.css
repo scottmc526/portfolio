@@ -3,6 +3,7 @@ a {
   color: black;
   opacity: 1;
   transition: opacity .30s ease-in-out;
+  cursor: pointer;
 }
 
 a:hover {
@@ -54,6 +55,7 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 100%;
 }
 
 img {
